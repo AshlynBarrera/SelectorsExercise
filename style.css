@@ -34,8 +34,8 @@ div p{
 }
 
 
-/* NEED HELP 11*/
-input [type = 'email']{
+
+input[name=email]{
  background-color: #808080 ;
 }
 
