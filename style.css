@@ -18,17 +18,24 @@ li{
 
 p{
     background-color: gold;
-    border: 5px pink dotted;
 }
 
+/* input{
+    border: 5px pink dotted;
+} */
+/* OR  */
+
+
+
 .first{
-    color: #fff
+    background-color: #fff
 }
 
 #important{
     border: 3px #106590 dashed 
 }
 
+/* this a decedent selector example */
 div p{
     font-size: 30px
 }
@@ -39,9 +46,12 @@ input[name=email]{
  background-color: #808080 ;
 }
 
+
+
 div:nth-of-type(3) p{
     background-color: hotpink;
 }
+
 div:nth-of-type(3) p:nth-of-type(2){
     border: 7px solid rgb(255, 255, 255);
 }
@@ -50,6 +60,42 @@ em {
     color: seashell;
     font-size: 25px;
 }
+
+
+
+/* Bonuse */
+
+
+/* 1 */
+input[chaecked]{
+    margin-left: 40px;
+}
+
+/* 2 */
+label{
+    text-transform: lowercase;
+}
+
+
+/* 3 */
+#important::first-letter{
+    color: lime;
+    font-size: 90px;
+}
+
+
+/* 4 */
+h1:hover{
+    color: navy
+}
+
+a:visited{
+    color: silver
+}
+
+
+
+
 
 
 
